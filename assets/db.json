@@ -17,11 +17,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {
-      "name": "Node",
+      "name": "Node.js",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {
-      "name": "React",
+      "name": "Express",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {
@@ -29,7 +29,11 @@
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {
-      "name": "NextJS",
+      "name": "React",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
+    },
+    {
+      "name": "Next.js",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint est dolor voluptatibus eos deserunt libero accusamus porro facere."
     },
     {

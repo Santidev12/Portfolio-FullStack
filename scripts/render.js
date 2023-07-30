@@ -1,10 +1,16 @@
 const skillsDiv = document.getElementById("skills-container");
+const skillsDescription = document.getElementById('skills-description');
 const gallery = document.getElementById("gallery");
+
+function clickSkill(index) {
+  const skill = db.skills[index];
+  skillsDescription.textContent = skill.description;
+}
 
 function render() {
   skillsDiv.innerHTML = "";
-  db.skills.forEach((skill) => {
-    skillsDiv.innerHTML += `<button class="btn-common">${skill.name}</button>`;
+  db.skills.forEach((skill, i) => {
+    skillsDiv.innerHTML += `<button class="btn-common" onclick="clickSkill(${i})">${skill.name}</button>`;
   });
 
   const projects = getCurrentProjects();
@@ -14,7 +20,7 @@ function render() {
   }
 
   gallery.innerHTML = `
-      <div class="img-one d-flex-p-b">
+      <div class="img-one d-flex-p-bstyle="background-image: url(${firstProject.img});">
           <a class="btona">
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
