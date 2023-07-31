@@ -138,6 +138,12 @@
             text-align: center;
         }
     }
+    .title_about {
+        font-size: 30px;
+    }
+    .about .section_lastname {
+        display: block!important;
+    }
 
 }
 
@@ -152,18 +158,31 @@
     .section_two {
         width: 100%;
     }
+    .section_title_two h1 {
+        font-size: 4rem;
+        padding-left: 0px;
+
+    }
+    
 }
 
 /* Pantallas grandes */
 @media (min-width: 768px) {
     /* Aquí van las reglas CSS para pantallas grandes */
+    .section_title_two h1 {
+        font-size: 4rem;
+    }
 }
-
-
 
 
 /* Aquí van las reglas CSS para pantallas extra grandes */
 @media (min-width: 1200px) {
+
+    .section_title_two h1 {
+        font-size: 6rem;
+       
+
+    }
     .bg-about {
         background: radial-gradient(circle farthest-side at left center, #33E459 -2%, #FFFFFF 10%);
 
@@ -177,5 +196,10 @@
     .section {
         margin-left: 25rem;
         margin-right: 25rem;
+    }
+}
+@media (max-width: 1300px) {
+    .about .section_lastname {
+        display: none;
     }
 }
