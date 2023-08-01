@@ -4,7 +4,7 @@ const gallery = document.getElementById("gallery");
 
 function clickSkill(index) {
   const skill = db.skills[index];
-  skillsDescription.textContent = skill.description;
+  skillsDescription.textContent = skill.description ? skill.description : "";
 }
 
 function render() {
