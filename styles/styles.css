@@ -142,8 +142,12 @@ a {
     cursor: pointer;
 }
 
+.buttons{
+    display: flex;
+}
+
 .section_one .buttons .btn-common {
-    margin-right: 2rem;
+    margin-right: 7rem;
 }
 
 .title_about {

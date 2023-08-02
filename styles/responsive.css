@@ -23,6 +23,12 @@
         width: 100%;
     }
 
+    .section_one .buttons{
+        flex-direction: column;
+    }
+    
+    
+
     .section_two {
         width: 100%;
     }
@@ -63,8 +69,12 @@
         width: 100%;
     }
 
-    .bg_contact .buttons {
+    .bg_contact .buttons{
         flex-direction: column;
+    }
+
+    .btn-common{
+        margin-top: 20px;
     }
 
     .img-one {
