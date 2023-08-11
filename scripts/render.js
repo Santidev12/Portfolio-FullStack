@@ -63,7 +63,9 @@ function render() {
       projectsDiv.innerHTML += `
         <div class="full-height d-flex-p-b" style="background-image: url(${project.img}); background-size: cover;">
           <a class="btona">
-            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <i class="fa-solid fa-arrow-up-right-from-square">
+            <a href="https://dall-e-kappa-lilac.vercel.app/" target="blank_"</a>
+            </i>
           </a>
           <div class="section-project">
             <h3>${project.name} </h3>
