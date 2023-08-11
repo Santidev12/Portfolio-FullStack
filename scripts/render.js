@@ -37,8 +37,10 @@ function render() {
   }
   gallery.innerHTML = `
       <div class="img-one d-flex-p-b" style="background-image: url(${firstProject.img});">
-          <a class="btona">
-            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <a class="btona" href="https://dall-e-kappa-lilac.vercel.app/" target="blank_">
+            <i class="fa-solid fa-arrow-up-right-from-square">
+            
+            </i>
           </a>
           <div class="section-project">
             <h3>${firstProject.name}</h3>
@@ -62,10 +64,8 @@ function render() {
       }
       projectsDiv.innerHTML += `
         <div class="full-height d-flex-p-b" style="background-image: url(${project.img}); background-size: cover;">
-          <a class="btona">
-            <i class="fa-solid fa-arrow-up-right-from-square">
-            <a href="https://dall-e-kappa-lilac.vercel.app/" target="blank_"</a>
-            </i>
+        <a class="btona" href="https://dall-e-kappa-lilac.vercel.app/" target="blank_">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
           <div class="section-project">
             <h3>${project.name} </h3>
