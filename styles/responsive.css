@@ -96,7 +96,8 @@
     }
 
     .gallery .img-one {
-        display: none;
+        margin-bottom: 20px;
+        /* display: none; */
     }
 
     .section_footer {
