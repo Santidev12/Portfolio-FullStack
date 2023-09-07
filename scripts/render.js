@@ -63,7 +63,8 @@ function render() {
         });
       }
       projectsDiv.innerHTML += `
-        <div class="full-height d-flex-p-b" style="background-image: url('../assets/images/carshowcase.png')"; background-size: cover;">
+        <div class="full-height d-flex-p-b" style="background-image: 
+        url('https://images.unsplash.com/photo-1486326658981-ed68abe5868e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80')"; background-size: cover;">
         <a class="btona" href="https://car-showcase-mwqlc845s-santidev12.vercel.app/" target="blank_">
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
