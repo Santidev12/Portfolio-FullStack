@@ -63,7 +63,7 @@ function render() {
         });
       }
       projectsDiv.innerHTML += `
-        <div class="full-height d-flex-p-b" style="background-image: url("../assets/images/carshowcase.png")); background-size: cover;">
+        <div class="full-height d-flex-p-b" style="background-image: url('../assets/images/carshowcase.png')"; background-size: cover;">
         <a class="btona" href="https://car-showcase-mwqlc845s-santidev12.vercel.app/" target="blank_">
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
