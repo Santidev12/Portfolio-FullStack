@@ -63,8 +63,8 @@ function render() {
         });
       }
       projectsDiv.innerHTML += `
-        <div class="full-height d-flex-p-b" style="background-image: url(${project.img}); background-size: cover;">
-        <a class="btona" href="https://dall-e-kappa-lilac.vercel.app/" target="blank_">
+        <div class="full-height d-flex-p-b" style="background-image: "../assets/images/carshowcase.png"); background-size: cover;">
+        <a class="btona" href="https://car-showcase-mwqlc845s-santidev12.vercel.app/" target="blank_">
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
           <div class="section-project">
