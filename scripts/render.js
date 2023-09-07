@@ -38,7 +38,7 @@ function render() {
   gallery.innerHTML = `
       <div class="img-one d-flex-p-b" style="background-image: url(${firstProject.img});">
           <a class="btona" href="https://dall-e-kappa-lilac.vercel.app/" target="blank_">
-            <i class="fa-solid fa-arrow-up-right-from-square">
+            <i class="fa-solid fa-arrow-up-right-from-square" href="https://dall-e-kappa-lilac.vercel.app/">
             
             </i>
           </a>
@@ -66,7 +66,7 @@ function render() {
         <div class="full-height d-flex-p-b" style="background-image: 
         url('https://images.unsplash.com/photo-1486326658981-ed68abe5868e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80'); background-position: center;">
         <a class="btona" href="https://car-showcase-mwqlc845s-santidev12.vercel.app/" target="blank_">
-            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <i class="fa-solid fa-arrow-up-right-from-square" href="https://car-showcase-mwqlc845s-santidev12.vercel.app/" target="blank_"></i>
           </a>
           <div class="section-project">
             <h3>${project.name} </h3>
