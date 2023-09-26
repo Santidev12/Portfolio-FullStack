@@ -37,7 +37,7 @@ function render() {
   }
   gallery.innerHTML = `
       <div class="img-one d-flex-p-b" style="background-image: url('${firstProject.img}');">
-          <a class="btona" href="https://car-showcase-mwqlc845s-santidev12.vercel.app/" target="blank_">
+          <a class="btona" href="https://dall-e-kappa-lilac.vercel.app/" target="blank_">
             <i class="fa-solid fa-arrow-up-right-from-square">
             
             </i>
