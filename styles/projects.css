@@ -3,12 +3,14 @@
     flex-wrap: wrap;
     width: 100%;
     box-sizing: border-box;
+    height: 70rem;
 }
 
 .half-width {
     width: 49%;
-    height: 70rem;
+    height: 48rem;
     display: flex;
+    margin-bottom: 50px;
     align-items: stretch;
     flex-wrap: wrap;
     justify-content: center;
@@ -19,7 +21,7 @@
 }
 
 .img-one {
-    height: 70rem;
+    height: 50rem;
     width: 50%;
     background-image: url("/assets/images/shop.svg");
     background-position: center top;
@@ -31,8 +33,9 @@
 }
 
 .full-height {
-    height: 49%;
+    height: 50%;
     width: 100%;
+    margin-bottom: 0px;
     display: inline-flex;
     flex-direction: row-reverse;
     background-image: url("/assets/images/shop.svg");

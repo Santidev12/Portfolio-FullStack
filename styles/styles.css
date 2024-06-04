@@ -55,7 +55,8 @@ a {
 }
 
 .section {
-    margin: 10rem;
+    display: flex;
+    margin-bottom: 10rem;
 }
 
 .display_two {
@@ -261,6 +262,7 @@ footer .btn-social {
 }
 
 .bg-projects {
+   
     background: var(--secondary);
     background: radial-gradient(circle farthest-side at right center, #33E459 -3%, #FFFFFF 19%);
     background-repeat: no-repeat;
