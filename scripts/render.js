@@ -104,32 +104,6 @@ function render() {
       </div>
   `;
 
-  const projectsDiv = document.getElementById("projects-container");
-  const secondZone = projects.slice(1, 3);
-  secondZone.forEach((project) => {
-    let descripciones = "";
-    // const array = [];
-    var array = project.description.split(',');
-    if(projectsDiv){
-      if(array.length){
-        array.forEach((p) => {
-          descripciones+=`<button class="btn-common">${p}</button>` ;
-        });
-      }
-      // projectsDiv.innerHTML += `
-      //   <div class="full-height d-flex-p-b" style="background-image: 
-      //   url("${project.img}"); background-position: center;">
-      //   <a class="btona" href="https://car-showcase-mwqlc845s-santidev12.vercel.app/" target="blank_">
-      //       <i class="fa-solid fa-arrow-up-right-from-square"></i>
-      //     </a>
-      //     <div class="section-project">
-      //       <h3>${project.name} </h3>
-      //       ${descripciones}
-      //     </div>
-      //   </div>
-      // `;
-    }
-  });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
